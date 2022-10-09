@@ -15,14 +15,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RadioApiService {
 
 
-    //private val radio_list_url = "http://apiradio.gathermedia.com.tr/api/radio/listnew/"
-    //radio api -> api/radio/listnew/
-
-    //var radio_country_url: String = "http://apiradio.gathermedia.com.tr/api/radio/countrylist/"
-    //country api -> api/radio/countrylist/
+    
 
 
-    private val BASE_URL = "http://apiradio.gathermedia.com.tr/"
+    private val BASE_URL = "Hidden"
 
     private val api = Retrofit.Builder()
         .baseUrl(BASE_URL)
@@ -40,7 +36,7 @@ class RadioApiService {
 
 
     fun getRadioData(context : Context) : Single<List<RadioListModel>> {
-        val token = "d81d8adf7d462f104695e359d268af50"
+        val token = "Hidden"
         val countryId = Shared.Constant.getCountryId(context)
         val tokenDevice = Shared.Constant.getToken(context)
         return api.getRadioListApi(
