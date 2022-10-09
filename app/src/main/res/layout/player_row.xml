@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/radio_avatar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="21dp"
+            android:background="@drawable/rectangle_imageview"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+
+        <LinearLayout
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/radio_avatar"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/radio_name"
+                android:maxLines="1"
+                android:textColor="#15202B"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textSize="14sp"
+                android:text="Test test test test test test   "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="31dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </LinearLayout>
+
+</LinearLayout>

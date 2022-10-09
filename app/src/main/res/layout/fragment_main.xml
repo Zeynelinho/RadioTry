@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+
+            android:pointerIcon="crosshair"
+            android:textAlignment="center"
+            android:theme="@style/font"
+            android:id="@+id/radio_search"
+            android:queryHint="@string/kanallarda_ara"
+            android:queryBackground="@null"
+            android:iconifiedByDefault="false"
+            android:textCursorDrawable="@null"
+            android:layout_marginTop="34dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_gray">
+
+        </SearchView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.5dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/filtrele_button"
+            android:layout_width="20dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/filter_icon"
+            android:backgroundTint="#7F909D">
+
+        </Button>
+
+        <TextView
+
+            android:id="@+id/filtrele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9.5dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:maxLines="1"
+            android:text="@string/filtrele"
+            android:textSize="13sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/listele_button"
+            android:layout_width="14.01dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/listele_"
+            android:backgroundTint="#7F909D">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:maxLines="1"
+            android:text="@string/listele"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_below="@id/linear_layout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_layout_3"
+            android:layout_alignParentBottom="true">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <ProgressBar
+
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:id="@+id/recycler_progres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+
+    <TextView
+        android:id="@+id/recycler_error"
+        android:layout_centerInParent="true"
+        android:text="Error! Try Again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>

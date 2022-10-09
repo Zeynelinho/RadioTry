@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_row"
+        android:backgroundTint="#F5F8FA"
+        >
+
+        <ImageView
+            android:id="@+id/radio_avatar"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="24dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rectangle_imageview">
+
+        </ImageView>
+
+
+        <LinearLayout
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/radio_avatar"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radio_name"
+                android:maxLines="1"
+                android:textColor="#15202B"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textSize="14sp"
+                android:text="Test test test test test test   "
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                >
+
+            </TextView>
+
+            <Button
+                android:onClick="add_favori"
+                android:visibility="visible"
+                android:id="@+id/radio_fav_button_red"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fav_redd"
+                android:layout_width="19.99dp"
+                android:layout_height="17.74dp">
+
+            </Button>
+
+            <ProgressBar
+
+                android:id="@+id/row_play_progress"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="14dp"
+                android:visibility="gone"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+            </ProgressBar>
+
+            <Button
+                android:onClick="playRadio"
+                android:id="@+id/radio_play_button"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="14dp"
+                android:background="@drawable/play"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

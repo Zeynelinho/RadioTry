@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Radio</string>
+    <string name="header_token">d81d8adf7d462f104695e359d268af50</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="large_text">
+
+    </string>
+    <string name="Night_mode">Gündüz Modu</string>
+    <string name="caliyor">Çalıyor</string>
+    <string name="durduruldu">Durduruldu</string>
+    <string name="radio">RADIO</string>
+    <string name="kullanimkosullari">Kullanım Koşulları</string>
+    <string name="geribildirim">Geri Bildirim</string>
+    <string name="puanla">Puanla</string>
+    <string name="paylas">Paylaş</string>
+    <string name="gather_media">Gather Media</string>
+    <string name="gather_kesif">Tüm Dünyadan en iyi haber kaynaklarını keşfet</string>
+    <string name="gather_indir">İndirmek için tıklayın</string>
+    <string name="tum_kanallar">Tüm Kanallar</string>
+    <string name="favoriler">Favoriler</string>
+    <string name="kanallarda_ara">Kanallarda ara</string>
+    <string name="favorilerde_ara">Favorilerde ara</string>
+    <string name="filtrele">Filtrele</string>
+    <string name="listele">Listele</string>
+    <string name="nav_app_bar_open_drawer_description" />
+    <string name="nav_app_bar_navigate_up_description" />
+</resources>

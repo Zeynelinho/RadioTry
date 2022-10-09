@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_background2"
+    tools:context=".view.PlayerFragment">
+
+
+    <Button
+        android:backgroundTint="#8899A6"
+        android:background="@drawable/close"
+        android:layout_width="20.25dp"
+        android:layout_height="20.25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <ImageView
+        android:background="@drawable/image_rectangle"
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="24dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="20.25dp"
+        android:layout_height="20.25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/fav"
+        android:backgroundTint="#8899A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+
+    <TextView
+        android:textColor="#15202B"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:gravity="center"
+        android:text="Tes test test test"
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:textColor="#8899A6"
+        android:fontFamily="@font/poppins_regular"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/durduruldu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/play"
+        android:backgroundTint="#17BF63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </Button>
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/left"
+        android:backgroundTint="#8899A6"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button">
+
+    </Button>
+
+    <Button
+        android:backgroundTint="#8899A6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/right"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button">
+
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@drawable/player_rectangle2"
+        android:id="@+id/playerRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

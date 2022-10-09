@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="radio">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#15202B</item>
+
+    </style>
+
+    <color name="green">#17BF63</color>
+
+    <style name="tab_text">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <string name="linkGather">
+        <a href="https://play.google.com/store/apps/details?id=org.gatheradio.android">İndirmek için tıklayın
+        </a>
+    </string>
+
+    <style name="font">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">#748488</item>
+        <item name="textStartPadding">20dp</item>
+
+
+    </style>
+
+
+
+    <style name="kullan_m_ko">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#15202B</item>
+    </style>
+
+
+    <style name="t_m_kanalla">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #15202B
+        </item>
+    </style>
+
+    <style name="favoriler">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #7F909D
+        </item>
+
+    </style>
+    <style name="geri_bildir">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #15202B
+        </item>
+
+    </style>
+
+    <style name="puanla">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #15202B
+        </item>
+
+    </style>
+
+    <style name="payla_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #15202B
+        </item>
+
+    </style>
+
+
+</resources>

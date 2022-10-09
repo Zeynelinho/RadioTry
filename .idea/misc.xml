@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/asd.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/custom_search.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/g__.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/image_rectangle.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/image_rectangle2.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/line_5.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/line_6.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/line_7.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/night_mode_rectangle.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/player_background.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/player_background2.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/player_rectangle.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/player_rectangle2.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/radio.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_3.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_4.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_9.xml" value="0.298" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_gray.xml" value="0.3025" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_green.xml" value="0.3025" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_green2.xml" value="0.3025" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_imageview.xml" value="0.3045" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/rectangle_row.xml" value="0.3025" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/drawable/vector.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout-v28/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/app_bar_main.xml" value="0.365625" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/fragment_favories.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/fragment_main.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/fragment_player.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/nav_header.xml" value="0.365625" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/nav_row.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/player_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/recycler_favori.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/recycler_row.xml" value="0.36594202898550726" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/layout/tab_title.xml" value="0.365625" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/menu/nav_header_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2995" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry2/app/src/main/res/layout/fragment_favories.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Zeynelinho/AndroidStudioProjects/GatherRadioTry2/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
