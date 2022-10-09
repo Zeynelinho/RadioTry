@@ -30,7 +30,7 @@ class Shared {
         fun getCountryId(context: Context): String {
             val token: String
             val preferences = context.getSharedPreferences("Country", Context.MODE_PRIVATE)
-            token = preferences.getString("countryId", "f226406b23c8459fa21ae06bacd38241").toString()
+            token = preferences.getString("countryId", "Hidden").toString()
             return token
         }
 
