@@ -8,7 +8,7 @@ import retrofit2.http.Path
 
 interface RadioListAPI {
 
-    @GET("api/radio/listnew/{id}/{uid}/{teltip}/{app}")
+    @GET("Hidden")
     fun getRadioListApi(
         @Header("apitoken") apitoken: String?,
         @Path("id") id: String?,
