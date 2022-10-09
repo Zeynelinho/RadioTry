@@ -10,7 +10,7 @@ import retrofit2.http.Query
 
 interface CountryListAPI {
 
-    @GET("api/radio/countrylist/{uid}/{teltip}/{app}")
+    @GET("Hidden")
     fun countryListApi(@Header("apitoken")apitoken: String?,
                     @Path("uid") uid: String?,
                     @Path("teltip") teltip: String?,
